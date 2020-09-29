@@ -5,5 +5,25 @@
 
 body {
   background-color: #191765;
+  font-family: roboto, sans-serif;
+  color: white;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.navbar-image {
+  max-width: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60px;
 }
 /*# sourceMappingURL=main.css.map */
