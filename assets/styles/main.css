@@ -3,6 +3,21 @@
           box-sizing: border-box;
 }
 
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+  .specs {
+    width: 80%;
+  }
+}
+
 html {
   background-color: #191765;
 }
@@ -13,15 +28,41 @@ body {
   color: white;
 }
 
+.about-me {
+  padding-top: 100px;
+}
+
+h1, ul {
+  color: #9390FF;
+}
+
+li {
+  color: #B3BAC5;
+}
+
+.columns {
+  margin: 0;
+}
+
 .navbar-image {
-  max-width: 60px;
+  max-width: 100px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 60px;
+  height: 100px;
 }
 
 .about-card h1 {
-  font-size: 3rem;
+  font-weight: bold;
+}
+
+.specs hr {
+  background-color: #B3BAC5;
+  margin: 0;
+  height: 1px;
+}
+
+.contact {
+  height: 1000px;
 }
 /*# sourceMappingURL=main.css.map */
