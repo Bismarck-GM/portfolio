@@ -3,20 +3,14 @@
           box-sizing: border-box;
 }
 
+html {
+  background-color: #191765;
+}
+
 body {
   background-color: #191765;
   font-family: roboto, sans-serif;
   color: white;
-}
-
-.navbar {
-  font-size: 1.5rem;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-style: italic;
 }
 
 .navbar-image {
@@ -25,5 +19,9 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   height: 60px;
+}
+
+.about-card h1 {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
