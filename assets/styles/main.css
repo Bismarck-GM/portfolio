@@ -3,23 +3,9 @@
           box-sizing: border-box;
 }
 
-@media screen and (min-width: 1024px) {
-  html {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  html {
-    font-size: 18px;
-  }
-  .about-me-specs {
-    width: 80%;
-  }
-}
-
 html {
   background-color: #191765;
+  font-size: 16px;
 }
 
 body {
@@ -28,8 +14,12 @@ body {
   color: white;
 }
 
+.about-me-link-icons a {
+  color: white;
+}
+
 .about-me {
-  padding-top: 100px;
+  padding-top: 50px;
   position: relative;
 }
 
@@ -44,16 +34,13 @@ body {
   left: -50%;
 }
 
-.about-me-link-icons a {
-  color: white;
-}
-
-h1, ul {
-  color: #9390FF;
+h1,
+ul {
+  color: #9390ff;
 }
 
 ul li {
-  color: #B3BAC5;
+  color: #b3bac5;
 }
 
 .columns {
@@ -61,11 +48,11 @@ ul li {
 }
 
 .navbar-image {
-  max-width: 100px;
+  max-width: 3rem;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100px;
+  height: 3rem;
 }
 
 .about-me-card h1 {
@@ -73,16 +60,53 @@ ul li {
 }
 
 .about-me-specs {
-  color: #B3BAC5;
+  color: #b3bac5;
+  width: 80%;
 }
 
 .about-me-specs hr {
-  background-color: #B3BAC5;
+  background-color: #b3bac5;
   margin: 0;
   height: 1px;
 }
 
 .contact {
   height: 1000px;
+}
+
+@media screen and (min-width: 411px) {
+  html {
+    font-size: 18px;
+  }
+  .about-me-specs {
+    width: 80%;
+  }
+  .about-me {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 24px;
+  }
+  .about-me-specs {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 34px;
+  }
+  .about-me {
+    padding-top: 150px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
