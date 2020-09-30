@@ -13,7 +13,7 @@
   html {
     font-size: 18px;
   }
-  .specs {
+  .about-me-specs {
     width: 80%;
   }
 }
@@ -30,13 +30,29 @@ body {
 
 .about-me {
   padding-top: 100px;
+  position: relative;
+}
+
+.about-me .about-me-footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.about-me .about-me-footer .about-me-link-icons {
+  position: relative;
+  left: -50%;
+}
+
+.about-me-link-icons a {
+  color: white;
 }
 
 h1, ul {
   color: #9390FF;
 }
 
-li {
+ul li {
   color: #B3BAC5;
 }
 
@@ -52,11 +68,15 @@ li {
   height: 100px;
 }
 
-.about-card h1 {
+.about-me-card h1 {
   font-weight: bold;
 }
 
-.specs hr {
+.about-me-specs {
+  color: #B3BAC5;
+}
+
+.about-me-specs hr {
   background-color: #B3BAC5;
   margin: 0;
   height: 1px;
