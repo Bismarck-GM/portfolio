@@ -25,13 +25,29 @@ body {
 
 .about-me .about-me-footer {
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   left: 50%;
 }
 
 .about-me .about-me-footer .about-me-link-icons {
   position: relative;
   left: -50%;
+}
+
+.about-me .right-arrows, .about-me .left-arrows {
+  position: absolute;
+  bottom: 0;
+  color: #b3bac5;
+  margin-bottom: 0;
+  font-size: 0.6rem;
+}
+
+.about-me .right-arrows {
+  right: 0;
+}
+
+.about-me .left-arrows {
+  left: 0;
 }
 
 h1,
@@ -70,10 +86,28 @@ ul li {
   height: 1px;
 }
 
+.about-me-specs .list {
+  margin-bottom: 0;
+}
+
 .contact {
   height: 1000px;
 }
 
+/*
+.dot {
+  height: 10rem;
+  width: 10rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 4rem;
+  top: 10rem;
+  background: #EDECFF;
+  filter: blur(50px);
+}
+*/
 @media screen and (min-width: 411px) {
   html {
     font-size: 18px;
