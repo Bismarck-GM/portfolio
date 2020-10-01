@@ -109,8 +109,41 @@ hr {
 .my-projects-grid-item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-rows: minmax(0, 1fr) 1fr;
+      grid-template-rows: minmax(0, 1fr) 1fr;
+}
+
+.grid-item-description p {
+  color: #b3bac5;
+  font-family: inter, sans-serif;
+}
+
+.grid-item-description ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-item-description ul li {
+  color: white;
+  margin-right: 1em;
+}
+
+.grid-item-description ul li:not(:last-child)::after {
+  content: "|";
+  margin-left: 1em;
+}
+
+.grid-item-buttons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
 }
 
 /*
