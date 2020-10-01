@@ -3407,7 +3407,6 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 
 .is-inline.input, .is-inline.textarea {
   display: inline;
-  width: auto;
 }
 
 .input.is-rounded {
@@ -5243,6 +5242,7 @@ button.dropdown-item.is-active {
   max-height: calc(100vh - 40px);
   overflow: hidden;
   -ms-overflow-y: visible;
+  overflow-y: visible;
 }
 
 .modal-card-head,
@@ -8135,15 +8135,9 @@ label.panel-block:hover {
   }
 }
 
-.columns {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-top: -0.75rem;
-}
 
-.columns:last-child {
-  margin-bottom: -0.75rem;
-}
+
+
 
 .columns:not(:last-child) {
   margin-bottom: calc(1.5rem - 0.75rem);
