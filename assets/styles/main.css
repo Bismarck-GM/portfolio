@@ -104,17 +104,9 @@ hr {
   padding-left: 1rem;
 }
 
-.my-projects-grid {
-  display: -ms-grid;
-  display: grid;
-}
-
 .my-projects-grid-item {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: (minmax(0px, 1fr))[auto-fit];
-      grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
   margin-bottom: 3rem;
+  min-height: 1vh;
 }
 
 .grid-item-description p {
@@ -191,6 +183,21 @@ hr {
   }
   .about-me-specs, .my-projects-divider {
     width: 100%;
+  }
+  .my-projects.container.mt-7 {
+    max-width: 100%;
+  }
+  .my-projects-grid-item:nth-child(2n+2) div:nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .item-wrapper:nth-child(4) .category-grid-item:nth-child(1),
+  .item-wrapper:nth-child(4n+4) .category-grid-item:nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    min-width: 60%;
   }
 }
 
