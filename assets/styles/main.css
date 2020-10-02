@@ -113,6 +113,17 @@ hr {
 
 .description-title h3 {
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: unset;
+      flex-basis: unset;
 }
 
 .description-text {
@@ -145,6 +156,9 @@ hr {
 }
 
 .grid-item-description ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -204,15 +218,13 @@ hr {
 
 @media screen and (min-width: 1024px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
   .about-me-specs, .my-projects-divider {
     width: 100%;
   }
   .my-projects-grid {
     margin-bottom: 10rem;
-    background-color: rgba(13, 97, 122, 0.5);
-    border-radius: 5%;
   }
   .description-container {
     background-color: rgba(13, 97, 122, 0.5);
@@ -223,10 +235,6 @@ hr {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
-    border-radius: 0 5% 5% 0;
-  }
-  .my-projects-grid:nth-child(2n+2) .description-container {
-    border-radius: 5% 0 0 5%;
   }
   .my-projects-grid:hover :nth-child(1n+1) {
     opacity: 1;
