@@ -88,10 +88,6 @@ hr {
   margin-bottom: 0;
 }
 
-.contact {
-  height: 1000px;
-}
-
 .my-projects-divider, .about-me-specs {
   width: 90%;
 }
@@ -216,10 +212,32 @@ hr {
   .project-image {
     border-radius: 5%;
   }
-  .my-projects-grid:nth-child(2n+2) div:nth-child(1) {
+  .my-projects-grid {
+    margin-bottom: 10rem;
+    background-color: rgba(13, 97, 122, 0.5);
+    background-position: right;
+    border-radius: 50%;
+  }
+  /*
+  .image-container {
+    background-color: rgba(13,97,122,0.2);
+    border-radius: 5% 0 0 5%;
+  }
+*/
+  .description-container {
+    opacity: 0.2;
+  }
+  .my-projects-grid:nth-child(2n+2) .image-container {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    border-radius: 0 5% 5% 0;
+  }
+  .my-projects-grid:nth-child(2n+2) .description-container {
+    border-radius: 5% 0 0 5%;
+  }
+  .my-projects-grid:hover :nth-child(1n+1) {
+    opacity: 1;
   }
 }
 
