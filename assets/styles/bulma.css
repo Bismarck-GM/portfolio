@@ -8135,14 +8135,6 @@ label.panel-block:hover {
   }
 }
 
-
-
-
-
-.columns:not(:last-child) {
-  margin-bottom: calc(1.5rem - 0.75rem);
-}
-
 .columns.is-centered {
   justify-content: center;
 }

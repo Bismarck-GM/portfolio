@@ -60,6 +60,7 @@ ul li {
 
 .columns {
   margin: 0;
+  margin-bottom: 3rem;
 }
 
 .navbar-image {
@@ -128,7 +129,7 @@ hr {
   display: flex;
   color: #b3bac5;
   font-family: inter, sans-serif;
-  margin-bottom: auto;
+  margin-bottom: 20px;
 }
 
 .description-text p {
@@ -223,11 +224,14 @@ hr {
   .about-me-specs, .my-projects-divider {
     width: 100%;
   }
-  .my-projects-grid {
+  .my-projects-grid:not(:last-child) {
     margin-bottom: 10rem;
   }
   .grid-item-description {
     height: 100%;
+  }
+  .description-text {
+    margin-bottom: auto;
   }
   .my-projects-grid:nth-child(2n+2) .image-container {
     -webkit-box-ordinal-group: 2;
