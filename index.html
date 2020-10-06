@@ -13,18 +13,19 @@
   </head>
   <body>
     <nav class="navbar is-fixed-top">
-      <div class="container">
+      <div class="container navbar-items-container is-flex">
         <div class="navbar-brand navbar-start">
           <img src="assets/images/profilepic.jpg" alt="Geronimo Morisot profile picture" class="navbar-image">
         </div>
-        <div class="navbar-menu navbar-end">
-          <a href="#about-me" class="navbar-item">./ABOUT</a>
-          <a href="#portfolio" class="navbar-item">./PORTFOLIO</a>
-          <a href="#contact" class="navbar-item">./CONTACT</a>
+        <div class="is-flex navbar-links has-text-centered">
+          <div class="icon-container"><a href="#about-me" class="navbar-icon"><i class="fas fa-user"></i></a></div>
+          <div class="icon-container"><a href="#portfolio" class="navbar-icon"><i class="fas fa-tasks"></i></a></div>
+          <div class="icon-container"><a href="#contact" class="navbar-icon"><i class="far fa-envelope"></i></a></div>
         </div>
       </div>
     </nav>
     <span class="dot"></span>
+    <span class="dot2"></span>
     <section class="section p-0">
       <div class="about-me hero is-fullheight" id="about-me">
         <div class="about-me-card has-text-centered is-max-desktop">
@@ -269,7 +270,8 @@
         </div>
       </div>
     </section>
-    <section class="section" id="contact">
+
+    <section class="section contact-me" id="contact">
     <div class="contact container is-max-desktop">
       <div class="contact-title container is-fullhd mb-4">
         <h1 class="is-size-2 has-text-weight-bold">Contact me!</h1>
@@ -309,6 +311,8 @@
       </form>
       
     </div>
+    <span class="dot3"></span>
+    <span class="dot4"></span>
     </section>
     <footer class="footer">
       <div class="content has-text-centered">
