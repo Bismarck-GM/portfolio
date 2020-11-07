@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: #191765;
+  background-color: #15202B;
   font-family: roboto, sans-serif;
   color: white;
 }
@@ -52,7 +52,7 @@ body {
 
 h1,
 ul {
-  color: #9390ff;
+  color: #1DA1F2;
 }
 
 ul li {
@@ -67,7 +67,7 @@ ul li {
 .navbar {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  background-color: rgba(25, 23, 101, 0.5);
+  background-color: rgba(21, 32, 43, 0.5);
 }
 
 .navbar a {
