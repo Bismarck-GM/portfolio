@@ -75,7 +75,7 @@ ul li {
 }
 
 .about-me-link-icons a:hover {
-  color: #7d73fc;
+  color: #f17255;
 }
 
 .navbar-items-container {
@@ -116,7 +116,7 @@ ul li {
 }
 
 .icon-container:hover a {
-  color: #7d73fc;
+  color: #f17255;
 }
 
 .navbar-image {
@@ -247,7 +247,7 @@ hr {
 }
 
 .description-text-links {
-  color: #7d73fc;
+  color: #f17255;
 }
 
 .description-text-links :hover {
