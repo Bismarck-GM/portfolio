@@ -2,3 +2,5 @@ assets/styles/*.scss
 node_modules
 package-lock.json
 .stylelintrc.json
+google-contact-form.html
+.vscode
