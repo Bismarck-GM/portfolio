@@ -35,6 +35,9 @@ body {
 
 .about-me .right-arrows,
 .about-me .left-arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   bottom: 0;
   color: #b3bac5;
@@ -338,6 +341,12 @@ hr {
   }
   .about-me {
     padding-top: 150px;
+  }
+}
+
+@media screen and (max-height: 580px) {
+  .about-me-card div:nth-child(n+4) {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
