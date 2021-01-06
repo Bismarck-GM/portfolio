@@ -219,9 +219,11 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  white-space: nowrap;
 }
 
 .grid-item-description ul li {
+  font-size: 0.8rem;
   color: white;
   margin-right: 0.5em;
   display: inline;
